@@ -1,39 +1,16 @@
+import { useTranslation } from 'react-i18next';
+import { useGetSoftSkills } from '../../hooks';
 import { SectionTitle } from '../SectionTitle';
 import { SectionList } from '../SectionList';
 import { DivStyled } from './SoftSkills.styled';
 
-const data = [
-  {
-    id: 1,
-    title: 'Accurate',
-    type: 'text',
-  },
-  {
-    id: 2,
-    title: 'Attentive',
-    type: 'text',
-  },
-  {
-    id: 3,
-    title: 'Communicative',
-    type: 'text',
-  },
-  {
-    id: 4,
-    title: 'Flexible',
-    type: 'text',
-  },
-  {
-    id: 5,
-    title: 'Eager to learn',
-    type: 'text',
-  },
-];
-
 export const SoftSkills = () => {
+  const [t] = useTranslation('global');
+  const data = useGetSoftSkills();
+
   return (
     <DivStyled>
-      <SectionTitle title='Soft skills' />
+      <SectionTitle title={t('softSkills.title')} />
 
       <SectionList data={data} />
     </DivStyled>

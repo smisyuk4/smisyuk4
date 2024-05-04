@@ -1,22 +1,25 @@
+import { useTranslation } from 'react-i18next';
 import { SectionTitle } from '../SectionTitle';
 import { DivStyled } from './Work.styled';
 
 export const Work = () => {
+  const [t] = useTranslation('global');
+
   return (
     <DivStyled>
-      <SectionTitle title='Work experience' />
+      <SectionTitle title={t('work.title')} />
 
       <div>
-        <h3>Crossfit trainer - MKCF Sport Club</h3>
-        <h4>Nov 2015 - Oct 2020, Mykolayiv</h4>
+        <h3>{t('work.one.title')}</h3>
+        <h4>{t('work.one.period')}</h4>
 
         <ul>
-          <li>Working with clients, identifying their needs</li>
-          <li>Studied professional courses</li>
+          <li>{t('work.one.firstListItem')}</li>
+          <li>{t('work.one.secondListItem')}</li>
         </ul>
 
         <p>
-          Achievement: I've made an application
+          {t('work.one.partOne')}
           <a
             href='https://github.com/smisyuk4/Calendar_Sheet'
             target='_blank'
@@ -24,34 +27,29 @@ export const Work = () => {
           >
             (Google script + Telegram bot)
           </a>
-          for monitoring client visits and payment accounting. Made an automatic
-          service
+          {t('work.one.partTwo')}
           <a
             href='https://github.com/smisyuk4/Customer_Greetings'
             target='_blank'
             rel='noopener noreferer'
           >
-            (Google script + telegram)
+            (Google script + Telegram bot)
           </a>
-          to congratulate clients on their birthday, which improved their
-          loyalty to the club.
+          {t('work.one.partThree')}
         </p>
       </div>
 
       <div>
-        <h3>Sales manager Landtech LLC</h3>
-        <h4>Jun 2011 - Oct 2015, Mykolayiv</h4>
+        <h3>{t('work.two.title')}</h3>
+        <h4>{t('work.two.period')}</h4>
 
         <ul>
-          <li>Communicating with clients and identifying their needs</li>
-          <li>Studied of technical documentation and courses</li>
-          <li>Analytics of orders</li>
+          <li>{t('work.two.firstListItem')}</li>
+          <li>{t('work.two.secondListItem')}</li>
+          <li>{t('work.two.thirdListItem')}</li>
         </ul>
 
-        <p>
-          Achievement: I've trained new employees to increase the company's
-          network and profit.
-        </p>
+        <p>{t('work.two.partOne')}</p>
       </div>
     </DivStyled>
   );

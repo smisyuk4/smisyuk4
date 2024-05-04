@@ -1,1 +1,55 @@
-{}
+{
+  "contacts": {
+    "title": "Contacts",
+    "address": "Israel, Hod Hasharon"
+  },
+  "hardSkills": {
+    "title": "Hard skills"
+  },
+  "softSkills": {
+    "title": "Soft skills",
+    "accurate": "Accurate",
+    "attentive": "Attentive",
+    "communicative": "Communicative",
+    "flexible": "Flexible",
+    "learn": "Eager to learn"
+  },
+  "languages": {
+    "title": "Languages",
+    "en": "Ukrainian - Native speaker",
+    "ua": "English - Pre Intermediate"
+  },
+  "education": {
+    "title": "Education",
+    "one": {
+      "title": "GoIT - educational platform",
+      "period": "May 2022 - Apr 2023, on-line",
+      "name": "Full stack developer"
+    },
+    "two": {
+      "title": "National Agricultural University",
+      "period": "Sep 2004 - May 2010, Mykolayiv",
+      "name": "Engineer, Master"
+    }
+  },
+  "work": {
+    "title": "Work experience",
+    "one": {
+      "title": "Crossfit trainer - MKCF Sport Club",
+      "period": "Nov 2015 - Oct 2020, Mykolayiv",
+      "firstListItem": "Working with clients, identifying their needs",
+      "secondListItem": "Studied professional courses",
+      "partOne": "Achievement: I've made an application",
+      "partTwo": "for monitoring client visits and payment accounting. Made an automatic service",
+      "partThree": "to congratulate clients on their birthday, which improved their loyalty to the club."
+    },
+    "two": {
+      "title": "Sales manager Landtech LLC",
+      "period": "Jun 2011 - Oct 2015, Mykolayiv",
+      "firstListItem": "Communicating with clients and identifying their needs",
+      "secondListItem": "Studied of technical documentation and courses",
+      "thirdListItem": "Analytics of orders and creating a warehouse of goods",
+      "partOne": "Achievement: was one of the best managers of the department. Also trained new employees to increase the company's network and profit."
+    }
+  }
+}

@@ -48,5 +48,5 @@ export const SectionListItem = ({ item }) => {
 };
 
 SectionListItem.propTypes = {
-  item: PropTypes.string.isRequired,
+  item: PropTypes.object.isRequired,
 };
