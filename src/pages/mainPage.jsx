@@ -3,6 +3,8 @@ import { HardSkills } from '../components/HardSkills';
 import { SoftSkills } from '../components/SoftSkills';
 import { Languages } from '../components/Languages';
 import { Education } from '../components/Education';
+import { Projects } from '../components/Projects';
+import { Work } from '../components/Work';
 
 export const MainPage = () => {
   return (
@@ -18,6 +20,10 @@ export const MainPage = () => {
       <Languages />
 
       <Education />
+
+      <Projects />
+
+      <Work />
     </>
   );
 };
