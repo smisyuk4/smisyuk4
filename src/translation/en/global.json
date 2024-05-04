@@ -50,6 +50,75 @@
       "secondListItem": "Studied of technical documentation and courses",
       "thirdListItem": "Analytics of orders and creating a warehouse of goods",
       "partOne": "Achievement: was one of the best managers of the department. Also trained new employees to increase the company's network and profit."
+    },
+    "three": {
+      "title": "Frontend Developer - Baza Trainee Ukraine (Part-time)",
+      "period": "Oct 2023 - Jan 2024, remote",
+      "firstListItem": "Team leader of frontend developers",
+      "secondListItem": "Communication with the client on his tasks",
+      "thirdListItem": "Project support after production. Functionality update.",
+      "partOne": "Achievement: in the absence of the project manager, organized communication in the middle of the team between developers, testers and designers."
+    }
+  },
+  "projects": {
+    "title": "Project experience",
+    "one": {
+      "title": "Telegram bot",
+      "subTitle": "service w/web app for send announcement in channel",
+      "used": "Used: React js, hooks, router, form, yup, emotion, mixins, axios, firebase, node, express, cors, telegram api, liqpay, google cloud platform..."
+    },
+    "two": {
+      "title": "Warehouse",
+      "subTitle": "mobile app for control stock balances",
+      "used": "Used: React Native",
+      "desc": "I joined the project when the existing mobile version of the warehouse application was rewritten to the size of a tablet and increased functionality. Made tables, drop-down lists, product window"
+    },
+    "three": {
+      "title": "Photo social net",
+      "subTitle": "mobile app for publish photos and messages",
+      "used": "Used: React Native, Expo, Redux, location, camera, Firebase"
+    },
+    "four": {
+      "title": "SoYummy",
+      "subTitle": "Full stack project. Cookbook with recipes and shopping lists",
+      "used": "Used: React, hooks, react-redux, react-router-dom, portal, lazy, reduxpersist, formik, emotion/styled, yup, prop-types, toastify, paginate, node, express, mongodb, mongoose, cloudinary, swagger....",
+      "desc": "Team project. My role - team lead. Creation of project architecture. On the node, I wrote the search route by title and ingredient, and also helped write database queries for others. Swager wrote part of the documentation. On React, I made a 'popular recipes' section, helped colleagues in different sections. Fixed bugs throughout the project. I deployed the application."
+    },
+    "five": {
+      "title": "Filmoteka",
+      "subTitle": "Site for search films, read details, watch trailer video",
+      "used": "Used: JavaScript, Rest.API, axios, async/await, npm, firebase, SASS, HTML",
+      "desc": "Team project. My role - team lead. Creation of project architecture. Layout and stylization of the header. Analysis of API documentation. Writing a film library class. Work with image quality. Bug fixes."
+    },
+    "six": {
+      "title": "Icecream",
+      "subTitle": "Site for sales products",
+      "used": "Used: HTML, SASS, Java Script, JQuery",
+      "desc": "Team project. My role - team lead. Creation of project architecture. Helping the team with their questions. Bug fixes."
+    },
+    "seven": {
+      "title": "Status ac",
+      "subTitle": "Site for a lawyer company.",
+      "used": "Used: react js, axios, api, i18next, react hook form, yup, styled components, VPS",
+      "desc": "Team project. My role - team leader of frontend developers. Created frontend architecture. Support customer after production deploy product. Fix hidden bugs, write new features. Add meta pixel actions. Deploy code to vps. Clear old indexes pages from google search console."
+    },
+    "eight": {
+      "title": "Posts API",
+      "subTitle": "API for publish posts and books for sale",
+      "used": "Used: node js, express, SQLite, JWT, Swagger, AWS EC2, AWS Route 53, html+scss+js",
+      "desc": "Worked alone. Made protected and open routes, authorization, connect SQLite. The API has several entities that are logically united. Written swagger documentation and detailed info HTML page. Hosting on an Amazon server, file storage in a separate bucket"
+    },
+    "nine": {
+      "title": "Use prosto - lawyer center",
+      "subTitle": "Site with CMS for lawyer company.",
+      "used": "Used: react js, firebase, google cloud, redux, styled components, i18next, react hook form",
+      "desc": "Team project. My role head of project, designed CMS (react js), write some admin pages, fix bugs. Deploy to firebase hosting, write firebase function for reserve copy database to google cloud bucket, set up transfer job for reserve copy files to other bucket."
+    },
+    "ten": {
+      "title": "Furycomics",
+      "subTitle": "Site with CMS for sale comix book and read online",
+      "used": "Used: react js, firebase, redux, styled components, i18next, react hook form, stripe, react-pdf, slick-carousel...",
+      "desc": "Team project. My role head of project, designed CMS (react js), wrote most of the code, fix bugs. The functional sale of goods has been wrote. An interface for online reading has been developed. Рrinting PDF documents of the order. Deploy to firebase hosting."
     }
   }
 }

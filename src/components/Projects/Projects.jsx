@@ -1,10 +1,71 @@
+import { useTranslation } from 'react-i18next';
 import { SectionTitle } from '../SectionTitle';
 import { DivStyled } from './Projects.styled';
 
 export const Projects = () => {
+  const [t] = useTranslation('global');
   return (
     <DivStyled>
-      <SectionTitle title='Project experience' />
+      <SectionTitle title={t('projects.title')} />
+      {/* 10 */}
+      <div>
+        <a
+          href='https://furycomics.com.ua/'
+          target='_blank'
+          rel='noopener noreferer'
+        >
+          {t('projects.ten.title')}
+        </a>
+        <h4>{t('projects.ten.subTitle')}</h4>
+
+        <p>{t('projects.ten.used')}</p>
+        <p>{t('projects.ten.desc')}</p>
+      </div>
+
+      {/* 9 */}
+      <div>
+        <a
+          href='https://useprosto.com.ua/'
+          target='_blank'
+          rel='noopener noreferer'
+        >
+          {t('projects.nine.title')}
+        </a>
+        <h4>{t('projects.nine.subTitle')}</h4>
+
+        <p>{t('projects.nine.used')}</p>
+        <p>{t('projects.nine.desc')}</p>
+      </div>
+
+      {/* 8 */}
+      <div>
+        <a
+          href='https://posts-sqlite.xyz/api-v1/'
+          target='_blank'
+          rel='noopener noreferer'
+        >
+          {t('projects.eight.title')}
+        </a>
+        <h4>{t('projects.eight.subTitle')}</h4>
+
+        <p>{t('projects.eight.used')}</p>
+        <p>{t('projects.eight.desc')}</p>
+      </div>
+
+      {/* 7 */}
+      <div>
+        <a
+          href='https://statusac.com.ua/'
+          target='_blank'
+          rel='noopener noreferer'
+        >
+          {t('projects.seven.title')}
+        </a>
+        <h4>{t('projects.seven.subTitle')}</h4>
+
+        <p>{t('projects.seven.used')}</p>
+        <p>{t('projects.seven.desc')}</p>
+      </div>
 
       {/* 1 */}
       <div>
@@ -13,9 +74,9 @@ export const Projects = () => {
           target='_blank'
           rel='noopener noreferer'
         >
-          Telegram bot
+          {t('projects.one.title')}
         </a>
-        <h4>service w/web app for send announcement in channel</h4>
+        <h4>{t('projects.one.subTitle')}</h4>
 
         <ul>
           <li>
@@ -36,29 +97,22 @@ export const Projects = () => {
           </li>
         </ul>
 
-        <p>
-          Used: React js, hooks, router, form, yup, emotion, mixins, axios,
-          firebase, node, express, cors, telegram api, google cloud platform...
-        </p>
+        <p>{t('projects.one.used')}</p>
       </div>
 
       {/* 2 */}
       <div>
-        <h3>Warehouse</h3>
-        <h4>mobile app for control stock balances</h4>
+        <h3>{t('projects.two.title')}</h3>
+        <h4>{t('projects.two.subTitle')}</h4>
 
-        <p>Used: React Native</p>
-        <p>
-          I joined the project when the existing mobile version of the warehouse
-          application was rewritten to the size of a tablet and increased
-          functionality. Made tables, drop-down lists, product window
-        </p>
+        <p>{t('projects.two.used')}</p>
+        <p>{t('projects.two.desc')}</p>
       </div>
 
       {/* 3 */}
       <div>
-        <h3>Photo social net</h3>
-        <h4>mobile app for publish photos and messages</h4>
+        <h3>{t('projects.three.title')}</h3>
+        <h4>{t('projects.three.subTitle')}</h4>
         <a
           href='https://github.com/smisyuk4/Photo-social-net'
           target='_blank'
@@ -66,13 +120,13 @@ export const Projects = () => {
         >
           Link to github
         </a>
-        <p>Used: React Native, Expo, Redux, location, camera, Firebase</p>
+        <p>{t('projects.three.used')}</p>
       </div>
 
       {/* 4 */}
       <div>
-        <h3>SoYummy</h3>
-        <h4>Full stack project. Cookbook with recipes and shopping lists</h4>
+        <h3>{t('projects.four.title')}</h3>
+        <h4>{t('projects.four.subTitle')}</h4>
 
         <ul>
           <li>
@@ -93,19 +147,8 @@ export const Projects = () => {
           </li>
         </ul>
 
-        <p>
-          Used: React, hooks, react-redux, react-router-dom, portal, lazy,
-          reduxpersist, formik, emotion/styled, yup, prop-types, toastify,
-          paginate, node, express, mongodb, mongoose, cloudinary, swagger....
-        </p>
-        <p>
-          Team project. My role - team lead. Creation of project architecture.
-          On the node, I wrote the search route by title and ingredient, and
-          also helped write database queries for others. Swager wrote part of
-          the documentation. On React, I made a "popular recipes" section to
-          help colleagues in different sections. Fixed bugs throughout the
-          project. I deployed the application.
-        </p>
+        <p>{t('projects.four.used')}</p>
+        <p>{t('projects.four.desc')}</p>
       </div>
 
       {/* 5 */}
@@ -115,9 +158,9 @@ export const Projects = () => {
           target='_blank'
           rel='noopener noreferer'
         >
-          Filmoteka
+          {t('projects.five.title')}
         </a>
-        <h4>Site for search films, read details, watch trailer video</h4>
+        <h4>{t('projects.five.subTitle')}</h4>
         <a
           href='https://github.com/smisyuk4/filmoteka_mriia_goit_project'
           target='_blank'
@@ -126,15 +169,8 @@ export const Projects = () => {
           Link to github
         </a>
 
-        <p>
-          Used: JavaScript, Rest.API, axios, async/await, npm, firebase, SASS,
-          HTML
-        </p>
-        <p>
-          Team project. My role - team lead. Creation of project architecture.
-          Layout and stylization of the header. Analysis of API documentation.
-          Writing a film library class. Work with image quality. Bug fixes.
-        </p>
+        <p>{t('projects.five.used')}</p>
+        <p>{t('projects.five.desc')}</p>
       </div>
 
       {/* 6 */}
@@ -144,9 +180,9 @@ export const Projects = () => {
           target='_blank'
           rel='noopener noreferer'
         >
-          Icecream
+          {t('projects.six.title')}
         </a>
-        <h4>Site for sales products</h4>
+        <h4>{t('projects.six.subTitle')}</h4>
         <a
           href='https://github.com/smisyuk4/13attempts_goit_project'
           target='_blank'
@@ -155,11 +191,8 @@ export const Projects = () => {
           Link to github
         </a>
 
-        <p>Used: HTML, SASS, Java Script, JQuery</p>
-        <p>
-          Team project. My role - team lead. Creation of project architecture.
-          Helping the team with their questions. Bug fixes.
-        </p>
+        <p>{t('projects.six.used')}</p>
+        <p>{t('projects.six.desc')}</p>
       </div>
     </DivStyled>
   );

@@ -10,6 +10,19 @@ export const Work = () => {
       <SectionTitle title={t('work.title')} />
 
       <div>
+        <h3>{t('work.three.title')}</h3>
+        <h4>{t('work.three.period')}</h4>
+
+        <ul>
+          <li>{t('work.three.firstListItem')}</li>
+          <li>{t('work.three.secondListItem')}</li>
+          <li>{t('work.three.thirdListItem')}</li>
+        </ul>
+
+        <p>{t('work.three.partOne')}</p>
+      </div>
+
+      <div>
         <h3>{t('work.one.title')}</h3>
         <h4>{t('work.one.period')}</h4>
 

@@ -41,7 +41,12 @@ export const useGetHardSkills = () => {
     },
     {
       id: 8,
-      title: 'Google Cloud Platform, Firebase, AWS S3, AWS EC2',
+      title: 'Google Cloud Platform, Firebase, AWS S3, AWS EC2, AWS Route 53',
+      type: 'text',
+    },
+    {
+      id: 9,
+      title: 'Stripe, liqpay',
       type: 'text',
     },
   ];
