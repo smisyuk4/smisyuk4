@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { LiStyled } from './SectionListItem.styled';
 
 export const SectionListItem = ({ item }) => {
-  const { id, title, link, type } = item;
+  const { id, title, link, period, name, type } = item;
 
   const checkChild = type => {
     if (type === 'link') {
@@ -26,6 +26,16 @@ export const SectionListItem = ({ item }) => {
         <a href={`tel:${link}`} target='_blank' rel='noopener noreferer'>
           {title}
         </a>
+      );
+    }
+
+    if (type === 'education') {
+      return (
+        <>
+          <h3>{title}</h3>
+          <p>{period}</p>
+          <p>{name}</p>
+        </>
       );
     }
 
