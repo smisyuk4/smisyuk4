@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Mono+One&display=swap');
+
+:root {
+  --accentColor: #013423;
+  --firstColor: #f1b7b5;
+  --secondColor: #030a03;
+  --bgPrimaryColor: #f2f2e6;
+  --bgSecondaryColor: #013c28;
+
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 350ms;
+
+  --oswaldFont: 'Oswald', sans-serif;
+  --rubikFont: 'Rubik Mono One', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bgPrimaryColor);
+  color: var(--secondColor);
+}
+
+* {
+  font-family: var(--rubikFont);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.03rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
