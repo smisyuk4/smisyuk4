@@ -11,7 +11,7 @@ export const useGetHardSkills = () => {
     },
     {
       id: 2,
-      title: 'Java Script',
+      title: 'JavaScript',
       type: 'text',
     },
     {

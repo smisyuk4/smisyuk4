@@ -6,6 +6,8 @@ import { Languages } from '../components/Languages';
 import { Education } from '../components/Education';
 import { Projects } from '../components/Projects';
 import { Work } from '../components/Work';
+import avatar from '../assets/images/avatar-2.png';
+import { MainStyled, HeaderStyled, MainWrp } from './mainPage.styled';
 
 export const MainPage = () => {
   const [t, i18n] = useTranslation('global');
@@ -16,30 +18,46 @@ export const MainPage = () => {
     setActiveLang(() => lang);
   };
   return (
-    <>
+    <MainStyled>
       <button
         onClick={() =>
           activeLang === 'ua' ? toggleLanguage('en') : toggleLanguage('ua')
         }
         aria-label='перемикач мови'
-        //activeLang={activeLang}
-        //currentLang='ua'
       >
         {activeLang.toUpperCase()}
       </button>
-      <p>СЕРГІЙ МІСЮК SERGIY MISYUK</p>
 
-      <Contacts />
+      <HeaderStyled>
+        <img src={avatar} height={150} width={150} alt='аватар' />
 
-      <HardSkills />
+        <div>
+          <div>
+            <h1>{t('header.name')}</h1>
+            <h2>{t('header.position')}</h2>
+          </div>
 
-      <Languages />
+          <p>{t('header.summary')}</p>
+        </div>
+      </HeaderStyled>
 
-      <Education />
+      <MainWrp>
+        <div>
+          <Contacts />
 
-      <Projects />
+          <HardSkills />
 
-      <Work />
-    </>
+          <Languages />
+
+          <Education />
+        </div>
+
+        <div>
+          <Projects />
+
+          <Work />
+        </div>
+      </MainWrp>
+    </MainStyled>
   );
 };

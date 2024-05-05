@@ -22,7 +22,7 @@ export const Work = () => {
         <p>{t('work.three.partOne')}</p>
       </div>
 
-      <div>
+      {/*<div>
         <h3>{t('work.one.title')}</h3>
         <h4>{t('work.one.period')}</h4>
 
@@ -50,9 +50,9 @@ export const Work = () => {
           </a>
           {t('work.one.partThree')}
         </p>
-      </div>
+      </div>*/}
 
-      <div>
+      {/*<div>
         <h3>{t('work.two.title')}</h3>
         <h4>{t('work.two.period')}</h4>
 
@@ -63,7 +63,7 @@ export const Work = () => {
         </ul>
 
         <p>{t('work.two.partOne')}</p>
-      </div>
+      </div>*/}
     </DivStyled>
   );
 };
