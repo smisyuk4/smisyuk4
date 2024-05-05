@@ -5,6 +5,6 @@ export const UlStyled = styled.ul`
   flex-direction: column;
   gap: 3px;
   margin: 5px 0;
-  padding-left: 13px;
+  padding-left: 5px;
   margin-bottom: 10px;
 `;

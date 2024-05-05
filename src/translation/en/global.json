@@ -61,7 +61,7 @@
     "title": "Project experience",
     "one": {
       "title": "Telegram bot",
-      "subTitle": "service w/web app for send announcement in channel",
+      "subTitle": "- service with web app for send announcement in channel",
       "used": "Used: React js, hooks, router, form, yup, emotion, mixins, axios, firebase, node, express, cors, telegram api, liqpay, google cloud platform..."
     },
     "two": {
@@ -95,25 +95,25 @@
     },
     "seven": {
       "title": "Status ac",
-      "subTitle": "Site for a lawyer company.",
+      "subTitle": "- site for a lawyer company.",
       "used": "Used: react js, axios, api, i18next, react hook form, yup, styled components, VPS",
       "desc": "Team project. My role - team leader of frontend developers. Created frontend architecture. Support customer after production deploy product. Fix hidden bugs, write new features. Add meta pixel actions. Deploy code to vps. Clear old indexes pages from google search console."
     },
     "eight": {
       "title": "Posts API",
-      "subTitle": "API for publish posts and books for sale",
+      "subTitle": "- API for publish posts and books for sale",
       "used": "Used: node js, express, SQLite, JWT, Swagger, AWS EC2, AWS Route 53, html+scss+js",
       "desc": "Worked alone. Made protected and open routes, authorization, connect SQLite. The API has several entities that are logically united. Written swagger documentation and detailed info HTML page. Hosting on an Amazon server, file storage in a separate bucket"
     },
     "nine": {
-      "title": "Use prosto - lawyer center",
-      "subTitle": "Site with CMS for lawyer company.",
+      "title": "Use prosto",
+      "subTitle": "- site with CMS for lawyer company.",
       "used": "Used: react js, firebase, google cloud, redux, styled components, i18next, react hook form",
       "desc": "Team project. My role head of project, designed CMS (react js), write some admin pages, fix bugs. Deploy to firebase hosting, write firebase function for reserve copy database to google cloud bucket, set up transfer job for reserve copy files to other bucket."
     },
     "ten": {
       "title": "Furycomics",
-      "subTitle": "Site with CMS for sale comix book and read online",
+      "subTitle": "- site with CMS for sale comix book and read online",
       "used": "Used: react js, firebase, redux, styled components, i18next, react hook form, stripe, react-pdf, slick-carousel...",
       "desc": "Team project. My role head of project, designed CMS (react js), wrote most of the code, fix bugs. The functional sale of goods has been wrote. An interface for online reading has been developed. Рrinting PDF documents of the order. Deploy to firebase hosting."
     }

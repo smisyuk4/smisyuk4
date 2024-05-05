@@ -61,60 +61,60 @@
     "title": "Досвід на проектах",
     "one": {
       "title": "Telegram бот",
-      "subTitle": "сервіс з веб додатком для надсилання оголошень у канал месенджеру",
-      "used": "Використано: React js, hooks, router, form, yup, emotion, mixins, axios, firebase, node, express, cors, telegram api, google cloud platform..."
+      "subTitle": "- сервіс з веб додатком для надсилання оголошень у канал месенджеру",
+      "used": "Вик.: React js, hooks, router, form, yup, emotion, mixins, axios, firebase, node, express, cors, telegram api, google cloud platform..."
     },
     "two": {
       "title": "Warehouse",
       "subTitle": "мобільний додаток для контролю залишків запасів на складі",
-      "used": "Використано: React Native",
+      "used": "Вик.: React Native",
       "desc": "Я приєднався до проекту, коли існуючу мобільну версію додатку warehouse переписали до розмірів планшета та розширили функціональність. Зробили таблиці, випадаючі списки, вікно товару"
     },
     "three": {
       "title": "Фотосоціальна мережа",
       "subTitle": "мобільний додаток для публікації фотографій і повідомлень",
-      "used": "Використано: React Native, Expo, Redux, location, camera, Firebase"
+      "used": "Вик.: React Native, Expo, Redux, location, camera, Firebase"
     },
     "four": {
       "title": "SoYummy",
       "subTitle": "Full stack проект. Кулінарна книга з рецептами та списками покупок",
-      "used": "Використано: React, hooks, react-redux, react-router-dom, portal, lazy, reduxpersist, formik, emotion/styled, yup, prop-types, toastify, paginate, node, express, mongodb, mongoose, cloudinary, swagger....",
+      "used": "Вик.: React, hooks, react-redux, react-router-dom, portal, lazy, reduxpersist, formik, emotion/styled, yup, prop-types, toastify, paginate, node, express, mongodb, mongoose, cloudinary, swagger....",
       "desc": "Командний проект. Моя роль - керівник команди. Створення архітектури проекту. На node js я написав маршрут пошуку за назвою та інгредієнтом, а також допомагав писати запити до бази даних для інших розробників. Написав частину swagger документації. На React, я створив розділ «популярні рецепти», допомогав колегам у різних розділах. Розгорнув клієнт і сервер на хостингу."
     },
     "five": {
       "title": "Filmoteka",
       "subTitle": "Сайт для пошуку фільмів, читання деталей та перегляду трейлерів",
-      "used": "Використано: JavaScript, Rest.API, axios, async/await, npm, firebase, SASS, HTML",
+      "used": "Вик.: JavaScript, Rest.API, axios, async/await, npm, firebase, SASS, HTML",
       "desc": "Командний проект. Моя роль - керівник команди. Створення архітектури проекту. Також робив верстку та стилізацію хедера. Вивчення документації API. Написання класу фільмотеки. Робота з якістю зображеннь. Виправлення помилок."
     },
     "six": {
       "title": "Icecream",
       "subTitle": "Сайт для продажу товарів",
-      "used": "Використано: HTML, SASS, Java Script, JQuery",
+      "used": "Вик.: HTML, SASS, Java Script, JQuery",
       "desc": "Командний проект. Моя роль - керівник команди. Створення архітектури проекту. Допомога команді з їхніми запитаннями. Виправлення помилок."
     },
     "seven": {
       "title": "Status АК",
-      "subTitle": "Сайт для адвокатської компанії",
-      "used": "Використано: react js, axios, api, react hook form, yup, styled components, VPS",
+      "subTitle": "- сайт для адвокатської компанії",
+      "used": "Вик.: react js, axios, api, react hook form, yup, styled components, VPS",
       "desc": "Командний проект. Моя роль — керівник команди frontend розробників. Створена архітектура frontend. Підтримка клієнта після розгортання продукту. Виправлення прихованих помилок, створення нових функцій. Додавання meta pixel дій. Розгортання коду в vps. Очищення старих індексованих сторінок із google search console."
     },
     "eight": {
       "title": "Posts API",
-      "subTitle": "API для публікації постів і продажу книг",
-      "used": "Використано: node js, express, SQLite, JWT, Swagger, AWS EC2, AWS Route 53, html+scss+js",
+      "subTitle": "- API для публікації постів і продажу книг",
+      "used": "Вик.: node js, express, SQLite, JWT, Swagger, AWS EC2, AWS Route 53, html+scss+js",
       "desc": "Працював сам. Створив захищені та відкриті маршрути, авторизацію, підключив SQLite. API має кілька сутностей, які логічно об'єднані. Написав swagger документацію та окрему детальну HTML-сторінку. Хостинг на сервері Amazon, зберігання файлів в окремому сховищі."
     },
     "nine": {
-      "title": "Use prosto - адвокатський центр",
-      "subTitle": "Сайт і CMS",
-      "used": "Використано: react js, firebase, google cloud, redux, styled components, react hook form",
+      "title": "Use prosto",
+      "subTitle": "- сайт і CMS для адвокатського центру",
+      "used": "Вик.: react js, firebase, google cloud, redux, styled components, react hook form",
       "desc": "Командний проект. Моя роль - керівник проекту, розробка дизайну CMS (react js), написання сторінок для CMS, виправлення помилок. Розгортання на хостингу Firebase, створення функції Firebase для резервної копії бази даних у хмарне відро Google, налаштування завдання перенесення для резервної копії файли в інше відро."
     },
     "ten": {
       "title": "Furycomics",
-      "subTitle": "Сайт і CMS для продажу коміксів і читання онлайн",
-      "used": "Використано: react js, firebase, redux, styled components, i18next, react hook form, stripe, react-pdf, slick-carousel...",
+      "subTitle": "- сайт і CMS для продажу коміксів і читання онлайн",
+      "used": "Вик.: react js, firebase, redux, styled components, i18next, react hook form, stripe, react-pdf, slick-carousel...",
       "desc": "Командний проект. Моя роль - керівник проекту, розробка дизайну CMS (react js), написав більшу частину коду, виправив помилки. Написано функціонал для продажу товарів. Розроблено інтерфейс для онлайн-читання. Друк PDF документів замовленнь. Розгорнуто на хостингу Firebase"
     }
   }

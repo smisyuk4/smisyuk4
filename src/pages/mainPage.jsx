@@ -19,14 +19,14 @@ export const MainPage = () => {
   };
   return (
     <MainStyled>
-      {/*<button
+      <button
         onClick={() =>
           activeLang === 'ua' ? toggleLanguage('en') : toggleLanguage('ua')
         }
         aria-label='перемикач мови'
       >
         {activeLang.toUpperCase()}
-      </button>*/}
+      </button>
 
       <HeaderStyled>
         <img src={avatar} height={150} width={150} alt='аватар' />

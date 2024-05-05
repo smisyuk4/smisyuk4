@@ -85,14 +85,16 @@ export const Projects = () => {
               target='_blank'
               rel='noopener noreferer'
             >
-              Link to github - react
+              github - react
             </a>
+          </li>
+          <li>
             <a
               href='https://github.com/smisyuk4/sales-telegram-bot-node'
               target='_blank'
               rel='noopener noreferer'
             >
-              Link to github - node
+              github - node
             </a>
           </li>
         </ul>
@@ -101,16 +103,16 @@ export const Projects = () => {
       </div>
 
       {/* 2 */}
-      <div>
+      {/*<div>
         <h3>{t('projects.two.title')}</h3>
         <h4>{t('projects.two.subTitle')}</h4>
 
         <p>{t('projects.two.used')}</p>
         <p>{t('projects.two.desc')}</p>
-      </div>
+      </div>*/}
 
       {/* 3 */}
-      <div>
+      {/*<div>
         <h3>{t('projects.three.title')}</h3>
         <h4>{t('projects.three.subTitle')}</h4>
         <a
@@ -121,10 +123,10 @@ export const Projects = () => {
           Link to github
         </a>
         <p>{t('projects.three.used')}</p>
-      </div>
+      </div>*/}
 
       {/* 4 */}
-      <div>
+      {/*<div>
         <h3>{t('projects.four.title')}</h3>
         <h4>{t('projects.four.subTitle')}</h4>
 
@@ -149,10 +151,10 @@ export const Projects = () => {
 
         <p>{t('projects.four.used')}</p>
         <p>{t('projects.four.desc')}</p>
-      </div>
+      </div>*/}
 
       {/* 5 */}
-      <div>
+      {/*<div>
         <a
           href='https://smisyuk4.github.io/filmoteka_mriia_goit_project/'
           target='_blank'
@@ -171,10 +173,10 @@ export const Projects = () => {
 
         <p>{t('projects.five.used')}</p>
         <p>{t('projects.five.desc')}</p>
-      </div>
+      </div>*/}
 
       {/* 6 */}
-      <div>
+      {/*<div>
         <a
           href='https://smisyuk4.github.io/13attempts_goit_project/'
           target='_blank'
@@ -193,7 +195,7 @@ export const Projects = () => {
 
         <p>{t('projects.six.used')}</p>
         <p>{t('projects.six.desc')}</p>
-      </div>
+      </div>*/}
     </DivStyled>
   );
 };
