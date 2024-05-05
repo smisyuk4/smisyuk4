@@ -1,4 +1,9 @@
 {
+  "header": {
+    "name": "Sergiy Misyuk",
+    "position": "REACT DEVELOPER",
+    "summary": "I am a junior react developer, I am interested in various technologies and libraries, I am studying English. At the moment, I really like the frontend, so I devote a lot of time to it. I want to work in a team and further improve my experience."
+  },
   "contacts": {
     "title": "Contacts",
     "address": "Israel, Hod Hasharon"

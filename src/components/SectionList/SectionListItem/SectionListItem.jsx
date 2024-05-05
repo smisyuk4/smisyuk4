@@ -33,7 +33,7 @@ export const SectionListItem = ({ item }) => {
       return (
         <>
           <h3>{title}</h3>
-          <p>{period}</p>
+          <p id='period'>{period}</p>
           <p>{name}</p>
         </>
       );
@@ -42,10 +42,10 @@ export const SectionListItem = ({ item }) => {
     if (type === 'course') {
       return (
         <>
-          <a href={link} target='_blank' rel='noopener noreferer'>
+          <a id='course' href={link} target='_blank' rel='noopener noreferer'>
             {title}
           </a>
-          <p>{period}</p>
+          <p id='period'>{period}</p>
           <p>{name}</p>
         </>
       );
