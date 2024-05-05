@@ -1,6 +1,7 @@
 {
-  "name": "cv-site",
-  "private": true,
+  "name": "sergiy-misyuk-rect-developer",
+  "homepage": "https://smisyuk4.github.io/smisyuk4/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
