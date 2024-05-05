@@ -6,14 +6,6 @@
   "hardSkills": {
     "title": "Hard skills"
   },
-  "softSkills": {
-    "title": "Soft skills",
-    "accurate": "Accurate",
-    "attentive": "Attentive",
-    "communicative": "Communicative",
-    "flexible": "Flexible",
-    "learn": "Eager to learn"
-  },
   "languages": {
     "title": "Languages",
     "en": "Ukrainian - Native speaker",

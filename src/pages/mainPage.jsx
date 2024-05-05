@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Contacts } from '../components/Contacts';
 import { HardSkills } from '../components/HardSkills';
-import { SoftSkills } from '../components/SoftSkills';
 import { Languages } from '../components/Languages';
 import { Education } from '../components/Education';
 import { Projects } from '../components/Projects';
@@ -33,8 +32,6 @@ export const MainPage = () => {
       <Contacts />
 
       <HardSkills />
-
-      <SoftSkills />
 
       <Languages />
 

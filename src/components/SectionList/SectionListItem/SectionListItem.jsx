@@ -39,6 +39,18 @@ export const SectionListItem = ({ item }) => {
       );
     }
 
+    if (type === 'course') {
+      return (
+        <>
+          <a href={link} target='_blank' rel='noopener noreferer'>
+            {title}
+          </a>
+          <p>{period}</p>
+          <p>{name}</p>
+        </>
+      );
+    }
+
     if (type === 'text') {
       return title;
     }

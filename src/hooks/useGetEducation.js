@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import goit from '../assets/docs/goit-fullstack-developer.pdf';
 
 export const useGetEducation = () => {
   const [t] = useTranslation('global');
@@ -9,7 +10,8 @@ export const useGetEducation = () => {
       title: t('education.one.title'),
       period: t('education.one.period'),
       name: t('education.one.name'),
-      type: 'education',
+      type: 'course',
+      link: goit,
     },
     {
       id: 2,

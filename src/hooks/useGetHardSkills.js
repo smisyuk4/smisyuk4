@@ -6,7 +6,7 @@ export const useGetHardSkills = () => {
   const data = [
     {
       id: 1,
-      title: 'HTML5, CSS3, SASS, Responsive/Adaptive design',
+      title: 'HTML5, CSS3, SASS, Responsive/Adaptive design, web accessibility',
       type: 'text',
     },
     {
