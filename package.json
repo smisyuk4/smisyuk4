@@ -1,8 +1,8 @@
 {
   "name": "sergiy-misyuk-rect-developer",
-  "homepage": "https://smisyuk4.github.io/smisyuk4/",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
+  "homepage": "https://smisyuk4.github.io/smisyuk4/",
   "type": "module",
   "scripts": {
     "start": "vite",
