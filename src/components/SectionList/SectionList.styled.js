@@ -6,4 +6,5 @@ export const UlStyled = styled.ul`
   gap: 3px;
   margin: 5px 0;
   padding-left: 13px;
+  margin-bottom: 10px;
 `;

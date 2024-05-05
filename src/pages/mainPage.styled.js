@@ -6,19 +6,18 @@ export const MainStyled = styled.main`
   padding: 20px;
   margin: 0 auto;
   border: 1px solid black;
-
-  background: rgb(242, 242, 230);
-  background: linear-gradient(
-    0deg,
-    rgba(242, 242, 230, 1) 93%,
-    rgba(1, 60, 40, 1) 93%
-  );
 `;
 
 export const HeaderStyled = styled.div`
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
+  background: var(--bgPrimaryColor);
+  background: linear-gradient(
+    0deg,
+    var(--bgPrimaryColor) 70%,
+    var(--bgSecondaryColor) 70%
+  );
 
   img {
     height: 150px;
@@ -32,7 +31,8 @@ export const HeaderStyled = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding-right: 20px;
   }
 
   h1 {
@@ -48,9 +48,13 @@ export const HeaderStyled = styled.div`
     font-weight: 700;
     color: var(--bgPrimaryColor);
   }
+
+  p {
+    font-size: 4.2mm;
+  }
 `;
 
 export const MainWrp = styled.div`
   display: flex;
-  gap: 20px;
+  gap: 30px;
 `;
