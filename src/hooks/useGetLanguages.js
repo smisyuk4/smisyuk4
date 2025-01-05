@@ -14,6 +14,11 @@ export const useGetLanguages = () => {
       title: t('languages.ua'),
       type: 'text',
     },
+    {
+      id: 3,
+      title: t('languages.he'),
+      type: 'text',
+    },
   ];
 
   return data;

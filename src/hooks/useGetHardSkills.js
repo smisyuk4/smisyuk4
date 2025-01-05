@@ -16,7 +16,7 @@ export const useGetHardSkills = () => {
     },
     {
       id: 3,
-      title: 'React, Redux, Styled, MUI',
+      title: 'React, NextJS, Redux, Styled, Tailwind, MUI',
       type: 'text',
     },
     {

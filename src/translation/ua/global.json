@@ -14,16 +14,22 @@
   "languages": {
     "title": "Мови",
     "en": "Українська - носій мови",
-    "ua": "Англійська - Pre Intermediate"
+    "ua": "Англійська - Pre Intermediate",
+    "he": "Іврит - elementary"
   },
   "education": {
     "title": "Освіта",
     "one": {
-      "title": "GoIT - освітня платформа",
-      "period": "трав 2022 - квіт 2023, on-line",
-      "name": "Full stack розробник"
+      "title": "Udemy - осв.платформа",
+      "period": "серп 2024, on-line",
+      "name": "Next.js розробник"
     },
     "two": {
+      "title": "GoIT - осв.платформа",
+      "period": "трав 2022 - квіт 2023 .... on-line",
+      "name": "Full stack розробник"
+    },
+    "three": {
       "title": "Національний Аграрний Університет",
       "period": "вер 2004 - трав 2010, Миколаїв",
       "name": "Інженер, магістр"

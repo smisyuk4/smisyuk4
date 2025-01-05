@@ -14,16 +14,22 @@
   "languages": {
     "title": "Languages",
     "en": "Ukrainian - Native speaker",
-    "ua": "English - Pre Intermediate"
+    "ua": "English - Pre Intermediate",
+    "he": "Hebrew - Elementary"
   },
   "education": {
     "title": "Education",
     "one": {
-      "title": "GoIT - educational platform",
-      "period": "May 2022 - Apr 2023, on-line",
-      "name": "Full stack developer"
+      "title": "Udemy - ed.platform",
+      "period": "Aug 2024, on-line",
+      "name": "Next.js developer"
     },
     "two": {
+      "title": "GoIT - ed.platform",
+      "period": "May 2022 - Apr 2023 .... on-line",
+      "name": "Full stack developer"
+    },
+    "three": {
       "title": "National Agricultural University",
       "period": "Sep 2004 - May 2010, Mykolayiv",
       "name": "Engineer, Master"
