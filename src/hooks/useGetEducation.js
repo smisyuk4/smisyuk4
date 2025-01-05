@@ -1,6 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import goit from '../assets/docs/goit-fullstack-developer.pdf';
-import udemy from '../assets/docs/udemy-nextjs.pdf';
 
 export const useGetEducation = () => {
   const [t] = useTranslation('global');
@@ -12,7 +10,7 @@ export const useGetEducation = () => {
       period: t('education.one.period'),
       name: t('education.one.name'),
       type: 'course',
-      link: udemy,
+      link: 'https://drive.google.com/file/d/1CduehMFWz3gZG46oQRv5ZKglsNH--wOS/view?usp=sharing',
     },
     {
       id: 2,
@@ -20,7 +18,7 @@ export const useGetEducation = () => {
       period: t('education.two.period'),
       name: t('education.two.name'),
       type: 'course',
-      link: goit,
+      link: 'https://drive.google.com/file/d/1LMCZpKNLREUKWGxc_UjLNgEVmIdI5p3r/view?usp=sharing',
     },
     {
       id: 3,
